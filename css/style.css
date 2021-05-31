@@ -8,7 +8,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Oswald', sans-serif;
-	background: #012c1f url(../Images/pattern-bg.png) repeat 0 0;
+	background: #012c1f url(images/pattern-bg.png) repeat 0 0;
 	overflow-x: hidden;
 	padding-top: 170px;
 }
