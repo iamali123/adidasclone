@@ -1,0 +1,8 @@
+
+/* ============== Max-1200px ==================== */
+
+@media (max-width: 1200px) {
+	.slider .info {
+		padding-left: 90px;
+	}
+}

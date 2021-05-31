@@ -1,0 +1,14 @@
+
+/* ============== Max-767px ==================== */
+
+@media (max-width: 333px) {
+	.header-top {
+		top: 94px;
+	}
+	.header-btm {
+		top: 193px;
+	}
+	.slider .owl-dots {
+		margin-top: -52px;
+	}
+}

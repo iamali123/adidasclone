@@ -1,0 +1,16 @@
+
+/* ============== Max-521px ==================== */
+
+@media (max-width: 521px) {
+	.header-top {
+		top: 72px;
+	}
+
+	body {
+		padding-top: 171px;
+	}
+
+	.header-btm {
+		top: 171px;
+	}
+}

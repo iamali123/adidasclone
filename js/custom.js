@@ -1,4 +1,6 @@
+
 // Sliders
+
 $(document).ready(function() {
     var one = $("#one");
     var two = $("#two");
@@ -7,7 +9,8 @@ $(document).ready(function() {
         loop: true,
         pagination: false,
         nav: true,
-        dots: true,
+		dots: true,
+		smartSpeed: 400,
         responsive: {
             0: {
                 items: 1
@@ -26,16 +29,23 @@ $(document).ready(function() {
         pagination: false,
         dots: true,
         nav: true,
-
+		slideBy: 'page',
+		autoplay:true,
+		autoplayTimeout:3000,
+		autoplayHoverPause:true,
         responsive: {
             0: {
+				dotsEach: 1,
                 items: 1
             },
             768: {
+				dotsEach: 2,
                 items: 3
             },
             1023: {
-                items: 4
+				dotsEach: 2,
+				items: 4,
+		
             }
         }
     });
@@ -119,11 +129,11 @@ $(document).ready(function() {
 
 if (window.matchMedia('(min-width: 768px)').matches) {
     $('document').ready(function() {
-        // add class of ie_edge for edge
+
         if (document.documentMode || /Edge/.test(navigator.userAgent)) {
             $('body').addClass('ie_edge');
         }
-        //run the select code for all selects
+
         generate_select('select');
         document.activeElement.blur();
         $(document).on('gform_post_render', function() {
@@ -138,14 +148,21 @@ if (window.matchMedia('(min-width: 768px)').matches) {
             shrinkScrollbars: 'scale',
             fadeScrollbars: true,
             click: true,
-            disablePointer: true, // important to disable the pointer events that causes the issues
-            disableTouch: false, // false if you want the slider to be usable with touch devices
-            disableMouse: false, // false if you want the slider to be usable with a mouse (desktop)
+            disablePointer: true, 
+            disableTouch: false, 
+            disableMouse: false, 
             interactiveScrollbars: true,
         });
 
     });
 }
+
 $(".remove-text").click(function() {
     $(this).closest('form').find("input[type=text]").val("");
 });
+
+$('.header-btm .main-menu li').click(function(){
+    $('.header-btm .main-menu li').removeClass("nav-active");
+    $(this).addClass("nav-active");
+});
+
