@@ -49,7 +49,7 @@ img {
 /* ============== Top-Notification ==================== */
 
 .notification-banner-wrapper {
-	background: #f9f9f9 url(../Images/pattern-bg.png) center center repeat;
+	background: #f9f9f9 url(../images/pattern-bg.png) center center repeat;
 	position: fixed;
 	width: 100%;
 	left: 0;
@@ -123,7 +123,7 @@ img {
 
 .header-top {
 	padding: 11px 0 10px 0;
-	background: #012c1f url(../Images/pattern-bg.png) repeat 0 0;
+	background: #012c1f url(../images/pattern-bg.png) repeat 0 0;
 	position: fixed;
 	width: 100%;
 	top: 50px;
@@ -158,20 +158,20 @@ img {
 }
 
 .action-link a:first-child span {
-	background: #2f854c url(../Images/pattern-bg.png);
+	background: #2f854c url(../images/pattern-bg.png);
 	padding: 7px 37px 8px 41px;
 	transition: all 0.3s ease;
 }
 
 .action-link a:nth-child(2) span {
-	background: #145837 url(../Images/pattern-bg.png);
+	background: #145837 url(../images/pattern-bg.png);
 	transition: all 0.3s ease;
 }
 
 /* ============== Main-Header ==================== */
 
 .header-btm {
-	background: #0a522e url(../Images/pattern-bg.png);
+	background: #0a522e url(../images/pattern-bg.png);
 	position: fixed;
 	width: 100%;
 	top: 110px;
@@ -214,11 +214,11 @@ img {
 }
 
 .header-btm .main-menu .active {
-	background: #2b8448 url(../Images/pattern-bg.png);
+	background: #2b8448 url(../images/pattern-bg.png);
 }
 
 .header-btm .main-menu li:hover {
-	background: #248142 url(../Images/pattern-bg.png);
+	background: #248142 url(../images/pattern-bg.png);
 	transform: skewX(-14deg);
 }
 
@@ -299,7 +299,7 @@ img {
 	content: "";
 	width: 100%;
 	height: 100%;
-	background: url(../Images/pattern-bg.png);
+	background: url(../images/pattern-bg.png);
 	top: 0;
 	left: 0;
 	opacity: 0.5;
@@ -309,7 +309,7 @@ img {
 /* ============== Page-Title ==================== */
 
 .title {
-	background: #fff url(../Images/pattern-bg.png);
+	background: #fff url(../images/pattern-bg.png);
 	position: relative;
 }
 
@@ -333,7 +333,7 @@ img {
 	content: '';
 	position: absolute;
 	left: 0;
-	background: #1e7e3d url(../Images/pattern-bg.png);
+	background: #1e7e3d url(../images/pattern-bg.png);
 	width: 62.2%;
 	height: 100%;
 	clip-path: polygon(0 0, 100% 0, 97.8% 100%, 0% 100%);
@@ -603,7 +603,7 @@ img {
 /* ============== Aside ==================== */
 
 .main .aside .head {
-	background: #115735 url(../Images/pattern-bg.png);
+	background: #115735 url(../images/pattern-bg.png);
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 20px;
@@ -613,7 +613,7 @@ img {
 
 .main .aside .details {
 	padding: 18px 16px 12px 20px;
-	background: #2b8448 url(../Images/pattern-bg.png);
+	background: #2b8448 url(../images/pattern-bg.png);
 }
 
 .main .aside .details .item {
@@ -677,7 +677,7 @@ img {
 }
 
 .main .blogs .table .info {
-	background: #1e7e3d url(../Images/pattern-bg.png);
+	background: #1e7e3d url(../images/pattern-bg.png);
 	padding: 15px 11px 25px 11px;
 }
 
@@ -704,7 +704,7 @@ img {
 }
 
 .main .blogs .table .read {
-	background: #115735 url(../Images/pattern-bg.png);
+	background: #115735 url(../images/pattern-bg.png);
 
 }
 
@@ -734,7 +734,7 @@ img {
 }
 
 .image-zig {
-	background-image: url(../Images/zig-zag-img-1.png);
+	background-image: url(../images/zig-zag-img-1.png);
 	background-size: cover;
 	background-position: 50%;
 	z-index: 1;
@@ -745,7 +745,7 @@ img {
 }
 
 .image-zig-zag {
-	background-image: url(../Images/zig-zag-img-2.png);
+	background-image: url(../images/zig-zag-img-2.png);
 	background-size: cover;
 	background-position: 50%;
 	z-index: 1;
@@ -756,7 +756,7 @@ img {
 }
 
 .card {
-	background: #1e7e3d url(../Images/pattern-bg.png);
+	background: #1e7e3d url(../images/pattern-bg.png);
 }
 
 .cards-section .card .row {
@@ -818,7 +818,7 @@ img {
 /* ============== Contact Us ==================== */
 
 .contact-us {
-	background: #2b8448 url(../Images/pattern-bg.png);
+	background: #2b8448 url(../images/pattern-bg.png);
 	padding: 37px 0 40px 0;
 }
 
@@ -865,7 +865,7 @@ textarea::placeholder {
 }
 
 .cards-section .card:nth-of-type(2) {
-	background: rgb(8, 81, 45) url(../Images/pattern-bg.png);
+	background: rgb(8, 81, 45) url(../images/pattern-bg.png);
 }
 
 .contact-us .group-form span {
@@ -981,7 +981,7 @@ input[type='radio']:checked:after {
 
 .contact-us input[type='submit'] {
 	border: none;
-	background: #012c1f url(../Images/pattern-bg.png);
+	background: #012c1f url(../images/pattern-bg.png);
 	color: #fff;
 	padding: 12px 55px 9px 55px;
 	text-transform: uppercase;
@@ -996,7 +996,7 @@ input[type='radio']:checked:after {
 }
 
 .form-btn input:hover {
-	background: #0a522e url(../Images/pattern-bg.png);
+	background: #0a522e url(../images/pattern-bg.png);
 }
 
 .group-radio {
